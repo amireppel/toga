@@ -1,6 +1,6 @@
 # toga Project By Amir Eppel
 
-this is a project simulates a behaviour of a file system using Python-Django Webserver and ORM
+this is a project simulates a behaviour of a file system using Python-Django Webserver and ORM, i used simple sqlite database in this project, so the database itself is already the repository and there should be no nedd for extra installation beyond what is written below
 
 # requirements 
 
