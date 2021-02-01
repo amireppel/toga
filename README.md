@@ -41,8 +41,15 @@ in this api you can delete directories from the file system
 http://localhost:8000/api/deleteFile
 in this api you can delete files from the file system
 
+command line addition of the first directory(if the filesytem  is empty) could be done by running the following comand from toga/DirProject: 
+python manage.py createRootDir <First-Dir-Name>
 
+# Short description of the code
 
+django database models for file and directory are found toga/DirProject/api/models.py 
 
+django views that handles the different api requests and interactig with the models are in toga/DirProject/api/views.py
+
+json seriliazires for the django models are found in toga/DirProject/api/urls.py
 
 
